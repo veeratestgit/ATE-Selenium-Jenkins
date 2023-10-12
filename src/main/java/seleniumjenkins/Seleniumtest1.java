@@ -12,7 +12,7 @@ public class Seleniumtest1 {
 	public void method1() throws InterruptedException
 	{
 
-		
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\Application\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		// Maximize the browser window
