@@ -13,12 +13,8 @@ public class Seleniumtest1 {
 	{
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\Application\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		
-		// Maximize the browser window
-		
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		
 		//1. Open the url on the browser
 		
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
